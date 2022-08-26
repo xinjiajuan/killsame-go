@@ -50,6 +50,7 @@ func RunTicker(one Dir_One) {
 		return
 	}
 	ticker := time.NewTicker(duration)
+	DelSameFile(one)
 	for {
 		<-ticker.C
 		DelSameFile(one)
