@@ -1,0 +1,8 @@
+- dir:
+   enable: true
+   dirPath: "upload/"
+   checkInterval: 10s
+- dir:
+   enable: false
+   dirPath: "upload/壁纸库/二次元壁纸库/1080p"
+   checkInterval: 1min
